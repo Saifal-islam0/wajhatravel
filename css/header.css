@@ -1,0 +1,105 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+.head {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .1rem 1.5rem ;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo img {
+    width: 7rem;
+}
+
+.links-head {
+    display: flex;
+    gap: 2rem;
+}
+
+.links-head a ,.cate-links-head{
+    color: #CA9E67;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 0.5rem 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.links-head a:hover ,.cate-links-head:hover {
+    color: #936037;
+    background-color: #634e4232;
+}
+
+.btn-head {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-head a {
+    padding: 0.7rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    transition: all 0.3s;
+    text-align: center;
+}
+.cate-links-head {
+    position: relative;
+}
+.cate-links-head ul {
+    display: none;
+}
+
+.cate-links-head:hover ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 2.5rem;
+    width: 10rem;
+    padding: 1rem 0rem;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: .2rem;
+    gap: .8rem;
+
+}
+.login-btn {
+    color: #CA9E67;
+    border: 1px solid #CA9E67;
+}
+
+.login-btn:hover {
+    background-color: #CA9E67;
+    color: white;
+}
+
+.register-btn {
+    background: linear-gradient(to left, #ff9a5f, #CA9E67);
+    color: white;
+}
+
+.register-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+.active i , .active span{
+    color: #936037;
+}
+.active {
+    background-color: #634e4232;
+}
