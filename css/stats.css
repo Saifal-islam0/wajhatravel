@@ -11,12 +11,12 @@ a {
     text-decoration: none;
 }
 header {
-    padding: 5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 2rem 0;
 }
 .btn-back {
     position: absolute;
@@ -34,7 +34,7 @@ header {
 }
 
 .title-page h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #2c3e50;
     border: .3rem solid #2c3e50;
     background: rgba(255, 255, 255, 0.563);
@@ -44,17 +44,19 @@ header {
 .section-photo {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 5rem 0 1rem 0;
+    gap: 3rem;
+    padding: 5rem 0;
 }
 .photo {
-    max-width: 29rem;    
+    max-width: 20rem;    
     border: .1rem solid #fffcfc;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
 }
 .photo img {
-    max-width: 29rem;
-    height: 18rem;
+    max-width: 20rem;
+    height: 14rem;
 
 }
 .info {
@@ -124,7 +126,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     margin: 1.5rem 7rem;
     padding: 2rem;

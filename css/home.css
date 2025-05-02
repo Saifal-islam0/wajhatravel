@@ -12,27 +12,36 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-image: url("../assets/غلاف.jpg");
     background-size: cover;
     background-position: center;
     margin: 1rem 0rem;
-    gap: 5rem;
+    padding: 1rem 2rem;
+    gap: 3rem;
  }
 
-.title-hero ,.search {
-    align-self: center;
-}
+
 .title-hero h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: white;
     max-width: 70rem;
+    margin-top: 1rem;
 }
 .title-hero h1 span {
     color: #ff9a5f;
     font-size: 2rem;
 }
+
+.search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
 input[type = "search"] {
-    width: 20rem;
+    width: 19rem;
     height: 2.5rem;
     border-radius: 3rem;
     transition: all 1s;
@@ -50,7 +59,7 @@ input[type = "button"] {
     outline: none;
 }
 input[type = "search"]:focus {
-    width: 30rem;
+    width: 23rem;
     height: 3rem;
     border: .1rem solid #ff9a5f;
     box-shadow: 0 1px 6px #ffd050;
